@@ -12,6 +12,10 @@ archive: true
 env:
   global:
     - FOO=FUBU
+  matrix:
+    - m1=hello
+    - m2=world
+    - m3=node
 
  
 
